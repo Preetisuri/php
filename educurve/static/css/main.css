@@ -1,0 +1,56 @@
+.title {
+    font-size: 40pt;
+    font-weight: bolder;
+    color: #2a9f93;
+}
+head, body {
+    font-family: calibri
+}
+.theme_button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #4ab9ad;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.theme_button:hover{
+    background-color: #eeeeee;
+    color: #40a4b3;
+}
+#errormsg {
+    color: crimson;
+}
+#successmsg {
+    color:green;
+}
+.actionBtn {
+    color: #40a4b3;
+    cursor: pointer;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  outline: none;
+}
+.pull_right {
+    text-align: right;
+}
+#childInfo tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+#childInfo {
+    border-collapse: collapse;
+}
+.link {
+    color: #999;
+}
+.link:hover {
+    color: #40a4b3;
+    font-weight: bold;
+}
